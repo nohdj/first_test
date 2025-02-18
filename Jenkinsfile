@@ -48,7 +48,7 @@ pipeline {
             steps {
                 script {
                     // Kubernetes Deployment and Service 생성 및 적용 (1일차 교육때 사용한 deploy & service 생성 yaml 파일 등록하여 사용)
-                    sh "kubectl apply -f /home/eva/user/group1/team1/nohdj/spring-mysql-team1-nohdj-deployment-jenkins.yaml -n ${NAMESPACE}"
+                    sh "kubectl apply -f ./spring-mysql-team1-nohdj-deployment-jenkins.yaml -n ${NAMESPACE}"
                 }
             }
         }

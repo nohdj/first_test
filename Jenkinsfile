@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "group1-team1-spring-boot-jenkins"
         IMAGE_TAG = "latest"
         NAMESPACE = "group1-team1"
-	JAVA_HOME = "/home/eva/user/group1/team1/nohdj/jdk-21.0.5"
+	JAVA_HOME = "/jdk-21.0.5"
 	PATH = "${JAVA_HOME}/bin:${PATH}"
     }
     stages {

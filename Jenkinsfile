@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Maven 빌드 실행 (위 두줄 주석처리 및 아래 한줄 주석해제)
-                    sh 'mvn clean package -DskipTests'
+                    sh 'mvn clean install -DskipTests'
                 }
             }
         }
